@@ -68,7 +68,8 @@ TEMPLATES = [
         },
     },
 ]
-
+TEMPLATE_DIRS=('Accounts/templates',
+    )
 WSGI_APPLICATION = 'main_hospital.wsgi.application'
 
 

@@ -15,7 +15,15 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-
+admin.autodiscover()
 urlpatterns = [
+    url(r'^$','Accounts.views.home'),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^login/$','main_hospital.views.login'),
+    url(r'^logout/$','main_hospital.views.logout'),
+    url(r'^auth/$','main_hospital.views.auth_view'),
+    url(r'^loggedin/$','main_hospital.views.loggedin'),
+    url(r'^invalid/$','main_hospital.views.invalid_login'),
+    url(r'^register/$','main_hospital.views.register_user'),
+    url(r'^register_success/$','main_hospital.views.register_success'),
 ]
