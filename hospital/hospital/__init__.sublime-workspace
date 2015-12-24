@@ -1,0 +1,204 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"s"
+			],
+			[
+				"clean",
+				"cleaned_data"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/root/Desktop/articles/articles/settings.py",
+		"/root/Desktop/articles/template/login.html",
+		"/root/Desktop/articles/template/loggedin.html",
+		"/root/Desktop/articles/template/invalid.html",
+		"/root/Desktop/articles/articles/views.py",
+		"/root/Desktop/articles/template/register_success.html",
+		"/root/Desktop/articles/articles/urls.py",
+		"/root/Desktop/articles/template/register.html",
+		"/root/Desktop/songs.txt",
+		"/root/Desktop/articles/article/urls.py",
+		"/root/Desktop/articles/article/views.py",
+		"/root/Desktop/articles/template/base.html",
+		"/root/Desktop/articles/article/templates/articles.html",
+		"/root/Desktop/articles/articles/static/css/default.css",
+		"/root/Desktop/articles/article/templates/article.html",
+		"/root/Desktop/articles/article/admin.py",
+		"/root/Desktop/articles/article/models.py",
+		"/root/Desktop/experiment3.txt",
+		"/root/Desktop/queries.txt",
+		"/root/Desktop/articles/template/article.html",
+		"/root/Desktop/articles/template/articles.html",
+		"/root/Desktop/articles/template/hello.html",
+		"/root/Desktop/articles/template/home.html",
+		"/root/Desktop/trydjango18/src/trydjango18/urls.py",
+		"/root/Desktop/how to make a form",
+		"/root/Desktop/trydjango18/src/newsletter/forms.py",
+		"/root/Desktop/trydjango18/src/newsletter/views.py",
+		"/root/Desktop/trydjango18/src/templates/base.html",
+		"/root/Desktop/trydjango18/src/trydjango18/settings.py",
+		"/root/Desktop/trydjango18/src/templates/navbar.html",
+		"/root/Desktop/experiment6.txt",
+		"/root/Desktop/trydjango18/src/templates/forms.html",
+		"/root/Desktop/trydjango18/src/newsletter/models.py",
+		"/root/Desktop/trydjango18/src/templates/home.html",
+		"/root/Desktop/trydjango18/src/static_in_pro/our_static/img/example.txt",
+		"/root/Desktop/experiment4",
+		"/root/Desktop/trydjango18/src/newsletter/admin.py",
+		"/root/Desktop/trydjango18/src/newsletetr/views.py",
+		"/root/Desktop/trydjango18/src/newsletter/templates/home.html",
+		"/root/Desktop/trydjango18/src/newsletetr/migrations/__init__.py",
+		"/sh.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "__init__.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
