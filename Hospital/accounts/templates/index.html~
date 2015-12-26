@@ -1,0 +1,7 @@
+<html>
+<head>
+</head>
+<body>
+<input type="button" onclick="login/" value="login" />
+</body>
+</html>
