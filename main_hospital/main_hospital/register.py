@@ -1,16 +1,16 @@
 from django import forms
-from Accounts.models import User
+from accounts.models import User
 
 class RegistrationForm(forms.ModelForm):
-    email = forms.EmailField(widget=forms.TextInput,label="Email")
-    password1 = forms.CharField(widget=forms.PasswordInput,
+    email = forms.EmailField(widget=forms.widget.TextInput,label="Email")
+    password1 = forms.CharField(widget=forms.widget.PasswordInput,
                                 label="Password")
-    password2 = forms.CharField(widget=forms.PasswordInput,
+    password2 = forms.CharField(widget=forms.widget.PasswordInput,
                                 label="Password (again)")
 
     class Meta:
         model = User
-        fields = ['username','email', 'password1', 'password2']
+        fields = ['email', 'password1', 'password2']
 
     def clean(self):
         cleaned_data = super(RegistrationForm, self).clean()
@@ -25,14 +25,4 @@ class RegistrationForm(forms.ModelForm):
         if commit:
             user.save()
         return user
-
-
-class AuthenticationForm(forms.Form):
-    username = forms.CharField(widget=forms.TextInput)
-    password = forms.CharField(widget=forms.PasswordInput)
-    
- 
-   
-    class Meta:
-        fields = ['username', 'password']
 

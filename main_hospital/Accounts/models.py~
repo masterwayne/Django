@@ -1,16 +1,20 @@
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser
 
+class User(AbstractBaseUser):
+    username=models.CharField(max_length=50,unique=True,default="budhu")
+    email = models.EmailField('email address', unique=True, db_index=True)
+    joined = models.DateTimeField(auto_now_add=True),
+    is_active = models.BooleanField(default=True)
+    is_admin = models.BooleanField(default=False)
+    GENDER_CHOICES = (('M', 'Male'),('F', 'Female'),)
+    gender = models.CharField(max_length=1, choices=GENDER_CHOICES, default=GENDER_CHOICES[0][0])
+    ob = models.DateField(blank=True, null=True)
+    street_address = models.CharField(max_length = 100, null=True, blank=True)
+    pincode = models.CharField(max_length=8, default="0000000")
 
-# Create your models here.
+    USERNAME_FIELD = 'username'
 
-class MyUser(models.Model):
-	FirstName=models.CharField(max_length=200)
-	LastName=models.CharField(max_length=200)
-	password=models.CharField(max_length=200)
-	username=models.CharField(max_length=200)
-	Confirm_Password=models.CharField(max_length=200)
-	Email_Id=models.CharField(max_length=200)
- 	
-	def __unicode__(self):
-		return self.title
+    def __unicode__(self):
+        return self.email
+
